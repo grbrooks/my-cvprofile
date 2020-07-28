@@ -7,7 +7,7 @@ Body {
     background: url('../images/spaceship.jpg');
 
 }
-.heading h1{
+.heading h1 a:hover{
     text-decoration: none;
 }
 main{
