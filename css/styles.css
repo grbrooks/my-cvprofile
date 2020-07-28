@@ -1,19 +1,5 @@
 Body {
-    
-background: url('../images/spaceship.jpg')no-repeat;
-   text-align: center;
-   }
-   header{
-       
-       background-color: beige;}
-   
-   }
-      .header h1{
-        text-align: center;
-        text-transform: capitalize;
-    color: black;
-    }
-.header h1 a:hover{
-    text-decoration: none;
-    color: blue;
+    background-color: beige;
+    text-align: center
+    ;
 }
