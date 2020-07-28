@@ -1,5 +1,15 @@
 Body {
     background-color: beige;
-    text-align: center
-    ;
+    text-align: center;
+    font-family:'Lobster', cursive;
+}
+.heading{
+    background: url('../images/spaceship.jpg');
+
+}
+.heading h1{
+    text-decoration: none;
+}
+main{
+    background-color: lightblue;
 }
