@@ -15,4 +15,8 @@ Body {
 main{
     background-color: lightblue;
 
+
+
+main a{
+    text-decoration: none;
 }
