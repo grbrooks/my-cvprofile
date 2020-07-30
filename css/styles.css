@@ -18,8 +18,9 @@ Body {
 
 }
 
-main p a{
+.jumbotron-fluid a{
     text-decoration: none;
+    
 }
 .card{
     text-align: center;
