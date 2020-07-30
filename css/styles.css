@@ -15,8 +15,11 @@ Body {
 main{
     background-color: lightblue;
 
+}
 
-
-main a{
+main p a{
     text-decoration: none;
+}
+.card{
+    text-align: center;
 }
