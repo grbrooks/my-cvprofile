@@ -21,14 +21,9 @@ Body {
 .jumbotron-fluid a{
     text-decoration: none;
 
+
 }
-.card-pos{
-    background-position: 25px;
-}
-.card{
-    text-align: center;
-}
-.card a{
-    text-decoration: none;
-    color:#ffff99;
+.card-image-top{
+    width:100px;
+    height:100px;
 }
