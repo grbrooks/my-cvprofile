@@ -23,6 +23,11 @@ Body {
 
 
 }
+.card-img-top{
+    height: 150px;
+    width:150px;
+    position: center;
+}
 .card{
 padding:25px;
 background-color: rgb(80, 173, 204);
