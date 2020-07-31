@@ -23,7 +23,8 @@ Body {
 
 
 }
-.card-image-top{
-    width:100px;
-    height:100px;
+.card{
+padding:25px;
+background-color: rgb(80, 173, 204);
 }
+
