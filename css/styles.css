@@ -53,7 +53,10 @@ width:18em;
 }
 @media (max-width: 575.98px) { 
     .card{
-        width: 6em;
+    
+            padding:5px;
+            background-color: #50adcc;
+            width:7em;  
     }
     .card p{
         display:none;
