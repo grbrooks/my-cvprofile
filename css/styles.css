@@ -36,4 +36,18 @@ padding:25px;
 background-color: #50adcc;
 width:18em;
 }
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card{
+        width: 10em;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card{
+        width: 10em;
+        background-color: green;
+    }
+}
+@media (max-width: 575.98px) { 
+    .card{
+        width: 10em;
+    }
