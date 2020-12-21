@@ -32,7 +32,7 @@ text-align: center;
 
 }
 .card{
-padding:25px;
+padding:10px;
 background-color: #50adcc;
 width:18em;
 }
@@ -54,7 +54,7 @@ width:18em;
 @media (max-width: 575.98px) { 
     .card{
     
-            padding:5px;
+            padding:10px;
             background-color: #50adcc;
             width:7em;  
     }
