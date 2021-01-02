@@ -16,13 +16,13 @@ Body {
 }
 .jumbotron-fluid{
     background-color: lightblue;
-
-
 }
+
 
 .jumbotron-fluid a{
     text-decoration: none;
 text-align: center;
+font-size: 25px;
 
 }
 .card-img-top{
