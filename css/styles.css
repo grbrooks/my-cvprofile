@@ -19,7 +19,7 @@ Body {
 }
 
 
-.jumbotron-fluid a{
+.jumbotron-fluid h5, a{
     text-decoration: none;
 text-align: center;
 font-size: 25px;
