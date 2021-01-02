@@ -5,11 +5,13 @@ Body {
 }
 .heading{
     background: url('../images/spaceship.jpg');
+    background-position: center bottom;
+    background-attachment:fixed;
 
 }
 .heading  a{
     text-decoration: none;
-    color:#000000de;
+    color:#440606;
     text-shadow: 5px 5px 5px #12197a;
 }
 .jumbotron-fluid{
