@@ -1,73 +1,81 @@
 Body {
     background-color: beige;
     text-align: center;
-    font-family:'Lobster', cursive;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
 }
-.heading{
+
+.heading {
     background: url('../images/spaceship.jpg');
     background-position: center bottom;
-    background-attachment:fixed;
-
+    background-attachment: fixed;
 }
-.heading  a{
+
+.heading a {
     text-decoration: none;
-    color:#440606;
+    color: #440606;
     text-shadow: 5px 5px 5px #12197a;
 }
-.jumbotron-fluid{
+
+.jumbotron-fluid {
     background-color: lightblue;
 }
 
-
-.jumbotron-fluid h5, a{
+.jumbotron-fluid h5,
+a {
     text-decoration: none;
-text-align: center;
-font-size: 25px;
-
+    text-align: center;
+    font-size: 25px;
 }
-.card-img-top{
-  
+
+.card-img-top {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
+.card {
+    padding: 10px;
+    background-color: #50adcc;
+    width: 18em;
 }
-.card{
-padding:10px;
-background-color: #50adcc;
-width:18em;
-}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .card{
+    .card {
         width: 10em;
     }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .card{
+    .card {
         width: 10em;
         background-color: green;
     }
-    .card p{
+    .card p {
+        display: none;
+        margin: 10px
+    }
+    h5 {
         display: none;
     }
-    h5{display: none;}
 }
-@media (max-width: 575.98px) { 
-    .card{
-    
-            padding:10px;
-            background-color: #50adcc;
-            width:7em;  
-    }
-    .card p{
-        display:none;
 
+@media (max-width: 575.98px) {
+    .card {
+        padding: 10px;
+        background-color: #50adcc;
+        width: 7em;
+        margin: 5px;
     }
-  h5{display: none;}
-  a{
-      text-align: center;
-  }
-
-  }
-    
+    .card p {
+        display: none;
+    }
+    h5 {
+        display: none;
+    }
+    a {
+        text-align: center;
+    }
+}
