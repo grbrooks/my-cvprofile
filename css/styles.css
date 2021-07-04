@@ -76,11 +76,15 @@ a {
         display: none;
         font-size: 50%;
     }
-    h5 {
+    .card-title {
         display: none;
         font-size: 2px;
     }
-    a {
-        text-align: center;
+    ;
+}
+
+{
+    .button {
+        font-size: 2px;
     }
 }
