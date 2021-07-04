@@ -44,6 +44,15 @@ a {
     height: 20em;
 }
 
+.flex-wrap {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
     .card {
         width: 10em;
