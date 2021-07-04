@@ -59,9 +59,6 @@ a {
         display: none;
         margin: 10px
     }
-    h5 {
-        display: none;
-    }
 }
 
 @media (max-width: 575.98px) {
@@ -84,7 +81,7 @@ a {
 }
 
 {
-    .button {
+    .btn a {
         font-size: 2px;
     }
 }
