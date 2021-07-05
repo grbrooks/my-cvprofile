@@ -1,5 +1,5 @@
 Body {
-    background-color: beige;
+    background-color: gray;
     text-align: center;
     font-family: 'Lobster', cursive;
     margin: 0;
@@ -42,6 +42,10 @@ a {
     background-color: #50adcc;
     width: 18em;
     height: 20em;
+}
+
+.footer {
+    background-color: gray;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
