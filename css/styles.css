@@ -37,6 +37,8 @@ a {
     height: 6em;
 }
 
+.card-img-top a:hover {}
+
 .card {
     padding: 10px;
     background-color: #50adcc;
