@@ -41,7 +41,7 @@ a {
     padding: 10px;
     background-color: #50adcc;
     width: 18em;
-    height: 20em;
+    height: 22em;
 }
 
 .footer {
@@ -79,8 +79,5 @@ a {
     }
     .card-title {
         display: none;
-    }
-    .btn {
-        font-size: 5px;
     }
 }
