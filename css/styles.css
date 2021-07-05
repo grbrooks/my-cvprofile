@@ -29,6 +29,15 @@ a {
     font-size: 25px;
 }
 
+#click a {
+    text-decoration: none;
+}
+
+#click a:hover {
+    color: #440606;
+    background-color: white;
+}
+
 .card-img-top {
     display: block;
     margin-left: auto;
