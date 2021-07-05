@@ -37,7 +37,10 @@ a {
     height: 6em;
 }
 
-.card-img-top a:hover {}
+img:hover {
+    box-shadow: 0 0 2px 1px #46ec1c80;
+    border-radius: 50%;
+}
 
 .card {
     padding: 10px;
