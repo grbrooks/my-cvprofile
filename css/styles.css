@@ -1,5 +1,4 @@
-Body {
-    background-color: gray;
+* {
     text-align: center;
     font-family: 'Lobster', cursive;
     margin: 0;
@@ -58,8 +57,73 @@ img:hover {
     height: 22em;
 }
 
+.footer-container {
+    background-color: #212319;
+    padding-bottom: 4rem;
+}
+
 .footer {
-    background-color: gray;
+    width: 80%;
+    height: 40vh;
+    background-color: #212319;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: red;
+    transition: 0.3s ease-out
+}
+
+.footer-email h2 {
+    margin-bottom: 2em;
+}
+
+#footer-mail {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-mail::placeholder {
+    color: #b1b1b1;
+}
+
+#footer-mail-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9743d;
+}
+
+#footer-mail-btn:hover {
+    cursor: pointer;
+    background-color: #337af1;
+    transition: all 0.4s ease-out
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
