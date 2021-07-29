@@ -48,6 +48,7 @@ a {
 img:hover {
     box-shadow: 0 0 2px 1px #46ec1c80;
     border-radius: 50%;
+    transition: all 10 ease-in-out;
 }
 
 .card {
