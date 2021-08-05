@@ -1,1 +1,3 @@
-Your email address is: <?php echo $_POST["mail"]; ?>
+<?php
+var_dump($_POST);
+?>
