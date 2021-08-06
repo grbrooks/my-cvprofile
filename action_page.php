@@ -1,3 +1,1 @@
-<?php
-var_dump($_POST);
-?>
+Your email address is: <?php echo $_GET["email"]; ?>

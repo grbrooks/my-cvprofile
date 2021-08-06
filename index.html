@@ -87,7 +87,7 @@
     <hr>
 
     <div class="footer-container">
-        <form class="footer">
+        <div class="footer">
 
             <div class="footer-heading footer-1">
                 <h2>About Me</h2>
@@ -111,21 +111,19 @@
                 <a href="~">Contact me</a>
             </div>
 
-            <form action="/action_page.php" method="post">
-                <di class="footer-email">
+
+
+            <div class="footer-email">
+                <form action="action_page.php" method="GET" id="myForm" class="form">
                     <h2>Send me a your email address</h2>
-                    <input type="text" name="email">
-                    <input type="submit">
+                    <input name="email" id="email" type="email">
+                    <input type="submit" value="sign" id="footer-mail-btn">
+                </form>
+            </div>
 
-
-
-            </form>
+        </div>
     </div>
 
-
-    </div>
-    </div>
-    </div>
     <!-------------bootstrap Scripts----------->
 
 </body>
