@@ -167,7 +167,10 @@ img:hover {
         text-align: left;
         margin: 0;
     }
-    header-footer h2 {
-        font-size: 14;
+    .footer-heading h2 {
+        font-size: 1rem;
+    }
+    .footer {
+        justify-content: left;
     }
 }
