@@ -142,6 +142,12 @@ img:hover {
         display: none;
         margin: 10px
     }
+    .footer {
+        height: 50vh;
+    }
+    .footer-email-form {
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -159,18 +165,7 @@ img:hover {
     .card-title {
         display: none;
     }
-    .footer-3 {
-        display: none;
-    }
-    .footer-1 a .footer-2 a {
-        font-size: 10px;
-        text-align: left;
-        margin: 0;
-    }
-    .footer-heading h2 {
-        font-size: 1rem;
-    }
-    .footer {
-        justify-content: left;
+    .footer-email-form {
+        margin-top: 2rem;
     }
 }
