@@ -163,8 +163,11 @@ img:hover {
         display: none;
     }
     .footer-1 a .footer-2 a {
-        font-size: 12px;
+        font-size: 10px;
         text-align: left;
         margin: 0;
+    }
+    header-footer h2 {
+        font-size: 14;
     }
 }
