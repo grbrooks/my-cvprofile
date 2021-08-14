@@ -159,4 +159,11 @@ img:hover {
     .card-title {
         display: none;
     }
+    .footer-3,
+    .header-3 {
+        margin: 0;
+        display: none;
+        text-align: left;
+        font-size: 50%;
+    }
 }
