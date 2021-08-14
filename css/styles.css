@@ -64,12 +64,13 @@ img:hover {
 }
 
 .footer {
+    text-align: left;
     width: 80%;
     height: 40vh;
     background-color: #212319;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     margin: 0 auto;
 }
@@ -143,10 +144,12 @@ img:hover {
         margin: 10px
     }
     .footer {
-        height: 50vh;
+        height: 500px;
+        width: 100%;
     }
-    .footer-email-form {
-        margin-top: 2rem;
+    .footer-email-form {}
+    .footer-3 {
+        display: none;
     }
 }
 
@@ -160,12 +163,9 @@ img:hover {
     }
     .card-text {
         display: none;
-        font-size: 50%;
+        font-size: 5hv;
     }
     .card-title {
         display: none;
-    }
-    .footer-email-form {
-        margin-top: 2rem;
     }
 }
