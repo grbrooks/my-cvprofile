@@ -159,11 +159,12 @@ img:hover {
     .card-title {
         display: none;
     }
-    .footer-heading {
-        color: #337af1;
-        font: size 20px;
-    }
     .footer-3 {
-        color: #e91313
+        display: none;
+    }
+    .footer-1 a .footer-2 a {
+        font-size: 12px;
+        text-align: left;
+        margin: 0;
     }
 }
