@@ -171,43 +171,43 @@ img:hover {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 360px) {
     .card {
         padding: 5px;
-        background-color: #50adcc;
+        background-color: #ccab50;
         width: 7em;
         height: 10em;
         margin: 5px;
     }
     .card-text {
         display: none;
-        font-size: 12px;
     }
     .card-title {
         display: none;
     }
     .footer-container {
-        background-color: #127a3d;
+        background-color: blue;
     }
     .footer {
+        text-align: center;
         width: 100%;
         height: inherit;
     }
     .footer a {
-        font-size: 14px;
+        font-size: 10px;
     }
     .footer h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .footer-3 {
         display: none;
     }
     #footer-mail {
-        width: 100px;
+        width: 150px;
         height: 30px;
     }
     #footer-mail-btn {
-        width: 50px;
+        width: 30px;
         height: 30px;
     }
 }
