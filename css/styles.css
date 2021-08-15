@@ -1,209 +1,213 @@
-                                    * {
-                                        text-align: center;
-                                        font-family: 'Lobster', cursive;
-                                        margin: 0;
-                                        padding: 0;
-                                    }
-                                    
-                                    .heading {
-                                        background: url('../images/spaceship.jpg');
-                                        background-position: center bottom;
-                                        background-attachment: fixed;
-                                    }
-                                    
-                                    .heading a {
-                                        text-decoration: none;
-                                        color: #440606;
-                                        text-shadow: 5px 5px 5px #12197a;
-                                    }
-                                    
-                                    .jumbotron-fluid {
-                                        background-color: lightblue;
-                                    }
-                                    
-                                    .jumbotron-fluid h5,
-                                    a {
-                                        text-decoration: none;
-                                        text-align: center;
-                                        font-size: 25px;
-                                    }
-                                    
-                                    #click a {
-                                        text-decoration: none;
-                                    }
-                                    
-                                    #click a:hover {
-                                        color: #440606;
-                                        background-color: white;
-                                    }
-                                    
-                                    .card-img-top {
-                                        display: block;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        width: 95%;
-                                        height: 6em;
-                                    }
-                                    
-                                    img:hover {
-                                        box-shadow: 0 0 2px 1px #46ec1c80;
-                                        border-radius: 50%;
-                                        transition: 10s ease-in-out;
-                                    }
-                                    
-                                    .card {
-                                        padding: 10px;
-                                        background-color: #50adcc;
-                                        width: 18em;
-                                        height: 22em;
-                                    }
-                                    
-                                    .footer-container {
-                                        background-color: #212319;
-                                        padding-bottom: 4rem;
-                                    }
-                                    
-                                    .footer {
-                                        width: 80%;
-                                        height: 40vh;
-                                        background-color: #212319;
-                                        color: #fff;
-                                        display: flex;
-                                        justify-content: left;
-                                        flex-wrap: wrap;
-                                        margin: 0 auto;
-                                    }
-                                    
-                                    .footer-heading {
-                                        display: flex;
-                                        flex-direction: column;
-                                        margin-right: 4rem;
-                                    }
-                                    
-                                    .footer-heading h2 {
-                                        margin-bottom: 2rem;
-                                    }
-                                    
-                                    .footer-heading a {
-                                        color: #fff;
-                                        text-decoration: none;
-                                        margin-bottom: 0.5rem;
-                                    }
-                                    
-                                    .footer-heading a:hover {
-                                        color: red;
-                                        transition: 0.3s ease-out
-                                    }
-                                    
-                                    .footer-email h2 {
-                                        margin-bottom: 2em;
-                                    }
-                                    
-                                    #footer-mail {
-                                        width: 250px;
-                                        height: 40px;
-                                        border-radius: 4px;
-                                        outline: 0;
-                                        border: 0;
-                                        padding-left: 0.5rem;
-                                        font-size: 1rem;
-                                        margin-bottom: 1rem;
-                                    }
-                                    
-                                    #footer-mail::placeholder {
-                                        color: #e91313;
-                                    }
-                                    
-                                    #footer-mail-btn {
-                                        width: 100px;
-                                        height: 40px;
-                                        border-radius: 4px;
-                                        background-color: #f9743d;
-                                    }
-                                    
-                                    #footer-mail-btn:hover {
-                                        cursor: pointer;
-                                        background-color: #337af1;
-                                        transition: all 0.4s ease-out
-                                    }
-                                    
-                                    @media (min-width: 576px) and (max-width: 767.98px) {
-                                        .card {
-                                            width: 10em;
-                                        }
-                                    }
-                                    
-                                    @media (min-width: 576px) and (max-width: 767.98px) {
-                                        .card {
-                                            width: 10em;
-                                            background-color: green;
-                                        }
-                                        .card p {
-                                            display: none;
-                                            margin: 10px
-                                        }
-                                        .footer-container {
-                                            background-color: #127a3d;
-                                        }
-                                        .footer {
-                                            width: 100%;
-                                            height: inherit;
-                                        }
-                                        .footer a {
-                                            font-size: 14px;
-                                        }
-                                        .footer h2 {
-                                            font-size: 18px;
-                                        }
-                                        .footer-3 {
-                                            display: none;
-                                        }
-                                        #footer-mail {
-                                            width: 150px;
-                                            height: 30px;
-                                        }
-                                        #footer-mail-btn {
-                                            width: 70px;
-                                            height: 30px;
-                                        }
-                                        @media (max-width: 575.98px) {
-                                            .card {
-                                                padding: 5px;
-                                                background-color: #50adcc;
-                                                width: 7em;
-                                                height: 10em;
-                                                margin: 5px;
-                                            }
-                                            .card-text {
-                                                display: none;
-                                                font-size: 12px;
-                                            }
-                                            .card-title {
-                                                display: none;
-                                            }
-                                            .footer-container {
-                                                background-color: #127a3d;
-                                            }
-                                            .footer {
-                                                width: 100%;
-                                                height: inherit;
-                                            }
-                                            .footer a {
-                                                font-size: 14px;
-                                            }
-                                            .footer h2 {
-                                                font-size: 18px;
-                                            }
-                                            .footer-3 {
-                                                display: none;
-                                            }
-                                            #footer-mail {
-                                                width: 150px;
-                                                height: 30px;
-                                            }
-                                            #footer-mail-btn {
-                                                width: 70px;
-                                                height: 30px;
-                                            }
-                                        }
-                                    }
+* {
+    text-align: center;
+    font-family: "Lobster", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background: url("../images/spaceship.jpg");
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+.heading a {
+    text-decoration: none;
+    color: #440606;
+    text-shadow: 5px 5px 5px #12197a;
+}
+
+.jumbotron-fluid {
+    background-color: lightblue;
+}
+
+.jumbotron-fluid h5,
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+#click a {
+    text-decoration: none;
+}
+
+#click a:hover {
+    color: #440606;
+    background-color: white;
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 6em;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px #46ec1c80;
+    border-radius: 50%;
+    transition: 2s ease-in-out;
+}
+
+.card {
+    padding: 10px;
+    background-color: #50adcc;
+    width: 18em;
+    height: 22em;
+}
+
+.footer-container {
+    background-color: #212319;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    width: 80%;
+    height: 40vh;
+    background-color: #212319;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: red;
+    transition: 0.3s ease-out;
+}
+
+.footer-email h2 {
+    margin-bottom: 2em;
+}
+
+#footer-mail {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-mail::placeholder {
+    color: #e91313;
+}
+
+#footer-mail-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9743d;
+}
+
+#footer-mail-btn:hover {
+    cursor: pointer;
+    background-color: #337af1;
+    transition: all 0.4s ease-out;
+}
+
+@media (min-width: 576px) and (max-width: 1024.98px) {
+    .card {
+        width: 10em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .card {
+        width: 10em;
+        background-color: green;
+    }
+    .card p {
+        font-size: 10px;
+        color: white;
+        margin: 0;
+        text-align: center;
+        padding: 0
+    }
+    .footer-container {
+        background-color: #127a3d;
+    }
+    .footer {
+        width: 100%;
+        height: inherit;
+    }
+    .footer a {
+        font-size: 14px;
+    }
+    .footer h2 {
+        font-size: 18px;
+    }
+    .footer-3 {
+        display: none;
+    }
+    #footer-mail {
+        width: 150px;
+        height: 30px;
+    }
+    #footer-mail-btn {
+        width: 50px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .card {
+        padding: 5px;
+        background-color: #50adcc;
+        width: 7em;
+        height: 10em;
+        margin: 5px;
+    }
+    .card-text {
+        display: none;
+        font-size: 12px;
+    }
+    .card-title {
+        display: none;
+    }
+    .footer-container {
+        background-color: #127a3d;
+    }
+    .footer {
+        width: 100%;
+        height: inherit;
+    }
+    .footer a {
+        font-size: 14px;
+    }
+    .footer h2 {
+        font-size: 18px;
+    }
+    .footer-3 {
+        display: none;
+    }
+    #footer-mail {
+        width: 100px;
+        height: 30px;
+    }
+    #footer-mail-btn {
+        width: 50px;
+        height: 30px;
+    }
+}
