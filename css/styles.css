@@ -70,7 +70,6 @@ img:hover {
     color: #fff;
     display: flex;
     justify-content: left;
-    flex-wrap: wrap;
     margin: 0 auto;
 }
 
@@ -162,11 +161,11 @@ img:hover {
         display: none;
     }
     #footer-mail {
-        width: 150px;
+        width: 100px;
         height: 30px;
     }
     #footer-mail-btn {
-        width: 50px;
+        width: 30px;
         height: 30px;
     }
 }
@@ -204,10 +203,10 @@ img:hover {
     }
     #footer-mail {
         width: 100px;
-        height: 30px;
+        height: 20px;
     }
     #footer-mail-btn {
         width: 30px;
-        height: 30px;
+        height: 20px;
     }
 }

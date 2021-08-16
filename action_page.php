@@ -1,1 +1,1 @@
-Your email address is: <?php echo $_GET["email"]; ?>
+Your email address is: <?php echo $_POST["email"]; ?>
