@@ -170,10 +170,10 @@ img:hover {
 
 @media (max-width: 360px) {
     .card {
-        padding: 5px;
-        background-color: #ccab50;
-        width: 7em;
-        height: 10em;
+        padding: 1px;
+        background-color: #5058cc;
+        width: 100px;
+        height: 180px;
         margin: 5px;
     }
     .card-text {
@@ -199,8 +199,9 @@ img:hover {
     .footer h2 {
         font-size: 14px;
     }
-    #footer-mail {
-        width: 100px;
+    #footer-mail,
+    #footer-name {
+        width: 90px;
         height: 20px;
     }
     #footer-mail-btn {
