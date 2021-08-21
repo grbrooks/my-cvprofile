@@ -115,9 +115,12 @@
 
             <div class="footer-email">
                 <h2>Send me your Email address</h2>
-                <form action="config.php" method="POST" id="myForm">
+                <form action='handler.php' method='post'>
+                    <input name="name" type="name" placeholder="Enter your name" id="footer-name">
+                    <br>
                     <input name="email" type="email" placeholder="Enter your email address" id="footer-mail">
-                    <input type="submit" value="Sign" id="footer-mail-btn">
+                    <br>
+                    <input type="submit" value="Send" id="footer-mail-btn">
                 </form>
             </div>
 
