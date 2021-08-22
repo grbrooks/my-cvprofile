@@ -125,7 +125,7 @@ img:hover {
 
 @media (min-width: 576px) and (max-width: 1024.98px) {
     .card {
-        width: 10em;
+        width: 18em;
     }
 }
 
