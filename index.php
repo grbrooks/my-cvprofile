@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Graham Brooks..</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="heading">
+            <div class='container'>
+                <a href='index.html '>
+
+
+                    <h1>Graham Brooks</h1>
+                    <P>I want to learn <br>HTML, CSS and Javascript<br> and other programming languages</P>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!---------Main Page---------->
+    <section class="jumbotron-fluid">
+        <H2>Hobbies and interests</H2>
+        <p>I have an interest in radio communication and hold and intermediate amateur radio licence<br>My first home computer was a Sinclair ZX81 which had an upgraded ram pack to 16 kilobytes I had in the 1980s.<br>I have had and interest computers ever
+            since. </p>
+        <h5> About Me</h5>
+        <p id="click"><a href="resume.html">Resume</a>| <a href="https://github.com/grbrooks" target='_blank'>GitHup'</a></p>
+        <hr>
+        <!------------Cards------------>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <a href="radio.html">
+                            <img class="card-img-top" src="images/at5555.jpg" alt="at 5555">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">CB Radio<br></h5>
+                            <p class="card-text">I am interested in citizens Band and Amateur Radio<br>want to discuss the difference between the two..<br>They are not the same thing</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <a href="about-me.html">
+                            <img class="card-img-top pull-right" src="images/graham-brooks.jpg" alt="me">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Graham Brooks</h5>
+                            <p class="card-text">I live in Havant</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <a href="software.html">
+                            <img class="card-img-top pull-left" src="images/zx81_1.jpg" alt="Mini
+                                    computers">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Coding </h5>
+                            <p class="card-text">programs I have written.<br>Games<br>Radio Software
+                                <br>Applications</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section>
+    <!------------footer------------>
+    <hr>
+
+    <div class="footer-container">
+        <div class="footer">
+
+            <div class="footer-heading footer-1">
+                <h2>About Me</h2>
+                <a href="resume.html">Resume</a>
+                <a href="software.html">Software</a>
+                <a href="~">Stories</a>
+                <a href="~">Pictures</a>
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contact Me</h2>
+                <a href="https://github.com/grbrooks" target="_blank">GitHub</a>
+                <a href="~">Facebook</a>
+                <a href="~">Help</a>
+                <a href="~">Contact me</a>
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Multi media</h2>
+                <a href="~">github</a>
+                <a href="">Facebook</a>
+                <a href="~">Help</a>
+                <a href="~">Contact me</a>
+            </div>
+
+
+
+            <div class="footer-email">
+                <h2>Send me your Email address</h2>
+                <form action='handler.php' method='post'>
+                    <input name="name" type="name" placeholder="Enter your name" id="footer-name">
+                    <br>
+                    <input name="email" type="email" placeholder="Enter your email address" id="footer-mail">
+                    <br>
+                    <input type="submit" value="Send" id="footer-mail-btn">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------------bootstrap Scripts----------->
+
+</body>
+
+</html>
