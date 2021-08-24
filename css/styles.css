@@ -137,15 +137,14 @@ img:hover {
     }
     .footer-container {
         background-color: #127a3d;
-        margin: 5px 0px 200px 5px;
+        margin: 1px 0px 220px 1px;
     }
     .footer a {
-        font-size: 14px;
+        font-size: 20px;
     }
     .footer h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
-    .footer-3 {}
     #footer-mail,
     #footer-name {
         width: 160px;

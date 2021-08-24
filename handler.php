@@ -1,12 +1,17 @@
- <?php 
- $email =$_POST["email"]; 
- $name =$_POST["name"];
+<?php
+
+$server="localhost";
+$user="host";
+$password="";
+//$dbname="tmydb";
+// Create connection
+$conn=new mysqli($server,$user,$password);
+
+if ($conn->connect_error){
+    die("connection failed".$conn->connect_error);
+}
+echo "connected successfully<br>";
 
 
- echo "<h1>Hello:$name</h1>";
- if(filter_var($email, FILTER_VALIDATE_EMAIL)){
- ECHO("<h1>$email is a valid email address</h1>");
- }else{
-     echo("<h1>$email is not a valid email address</h1>");
- }
+ 
  ?>
