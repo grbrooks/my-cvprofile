@@ -20,18 +20,23 @@ echo "connected successfully";
 VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "data inserted";
+  
+echo "inserted successfully" ;
 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
- 
+ echo(closewin());
+
 } 
-
-?>
+  ?>
 <script>
-  alert("click to close")
-  window.close();
+   document.write="test";
+  function closewin() {
+   
+    window.close();
+    return true;
+  }
+ 
 </script>
-
 
 
