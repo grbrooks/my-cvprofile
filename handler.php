@@ -21,14 +21,17 @@ VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === TRUE) {
   echo "data inserted";
-  echo"";
 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
  
-}   
+} 
+
 ?>
-<script>window.close();</script>
+<script>
+  alert("click to close")
+  window.close();
+</script>
 
 
 
