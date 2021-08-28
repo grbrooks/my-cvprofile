@@ -12,7 +12,7 @@ $conn=new mysqli($servername,$username,$password,$dbname);
 if ($conn->connect_error){
     die("connection failed".$conn->connect_error);
 }
-echo "connected successfully";
+echo "connected successfully<br>";
 
      //Insert data
     $name=$_POST['name'];
@@ -21,8 +21,8 @@ echo "connected successfully";
 VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === TRUE) {
-  
-echo "inserted successfully" ;
+ 
+echo"<h2><a href='index.html'>'inserted successfully'</a></h2>";
 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
@@ -31,7 +31,7 @@ echo "inserted successfully" ;
 } 
 
   ?>
-  <h2><a href="index.html">We got your details</a></h2>
+
   
   
   
