@@ -1,3 +1,4 @@
+
 <?php
 
 $servername="localhost";
@@ -25,18 +26,15 @@ echo "inserted successfully" ;
 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
- echo(closewin());
+
 
 } 
+
   ?>
-<script>
-   document.write="test";
-  function closewin() {
-   
-    window.close();
-    return true;
-  }
- 
-</script>
+  <h2><a href="index.html">We got your details</a></h2>
+  
+  
+  
+
 
 
