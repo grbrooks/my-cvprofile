@@ -23,6 +23,9 @@ VALUES ('$name', '$email')";
 if ($conn->query($sql) === TRUE) {
  
 echo"<h2><a href='index.html'>'inserted successfully'</a></h2>";
+echo"<h2><a href='index.html'>'inserted successfully'</a></h2>";
+echo"<h2><a href='index.html'>'inserted successfully'</a></h2>";
+echo"<h2><a href='index.html'>'inserted successfully'</a></h2>";
 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
