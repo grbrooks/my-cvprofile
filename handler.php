@@ -1,4 +1,5 @@
 <style>
+  *{background-color: aqua;}
   <?php include "css/styles.css"?>
 </style>
 <?php
