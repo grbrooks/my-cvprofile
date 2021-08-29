@@ -1,4 +1,6 @@
-
+<style>
+  <?php include "css/styles.css"?>
+</style>
 <?php
 
 $servername="localhost";
@@ -36,7 +38,7 @@ echo"<h2><a href='index.html'>'inserted successfully'</a></h2>";
   ?>
 
   
-  
+  </html>
   
 
 
